@@ -1,0 +1,47 @@
+.conti{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+.card-box{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    background: #621db7;
+    background: -webkit-linear-gradient(to right, #a361e1, #d5a3f3, #da71e6, #f18ee2);
+    background: linear-gradient(to right, #a361e1, #b58ad1, #da71e6, #f18ee2);
+    transition: 1s;
+    margin-bottom:3px ;
+    margin-left: 4px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.card-box:hover
+{
+    transform: scale(1.02);
+    box-shadow: 2px 2px 2px rgb(47, 153, 210);
+}
+.namefield{
+    padding-top: 6px;
+    padding-left: 2px;
+    font-size: 15px;
+    color: rgb(249, 245, 245);
+}
+.cardno{
+    font-weight: 500;
+    padding-left: 10px;
+}
+.expiry{
+    font-weight: 500;
+    padding-right: 10px;    
+}

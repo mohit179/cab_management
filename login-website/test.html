@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script defer
+        src='https://maps.googleapis.com/maps/api/js?libraries=places&language=en&key=YOUR_API_KEY_HERE'
+        type='text/javascript'></script>
+    <link href='//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' id='bootstrap-css' rel='stylesheet' />
+    <link rel='stylesheet' href='dashboard.css'>
+    <link rel='stylesheet' href='test.css'>
+    <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+</head>
+
+<body>
+    <div class='w3-sidebar w3-dark-grey w3-bar-block' style='width:20% ; left:0px;'>
+        <h3 class='w3-bar-item'>Welcome " . $username[1] . "</h3>
+        <a href='dashboard_book.php' class='w3-bar-item w3-button'>Book Your Ride</a>
+        <a href='dashboard_past.php' class='w3-bar-item w3-button'>View Past trips</a>
+        <a href='dashboard_past.php' class='w3-bar-item w3-button'>Add Your Cards</a>
+        <a href='../logout.php' class='w3-bar-item w3-button'>Logout</a>
+    </div>
+
+    <div class="adder">
+        <form action="addcard.php" method="post">
+            
+            <div for="name">Full Name(On the Card)</div>
+            <input type="text" id="name" name="name" placeholder="Virat Kohli"style="border-radius: 5px;" required ><br><br>
+            
+            <div for="number">Card number</div>
+            <input type="text" id="number" name="number" style="border-radius: 5px;" placeholder="Card number" required><span class="input-group-text text-muted">
+                <i class="fa fa-cc-visa mx-1"></i>
+                <i class="fa fa-cc-amex mx-1"></i>
+                <i class="fa fa-cc-mastercard mx-1"></i>
+            </span>
+            
+            <div for="cvv">Enter the 3 digit CVV</div>
+            <input type="text" id="cvv" name="cvv" style="border-radius: 5px;" placeholder="CVV" required><br><br>
+            
+            <button class="btn btn-success" type="submit" name="submit">Confirm</button>
+
+
+        </form>
+    </div>
+    
+</body>
+
+</html>

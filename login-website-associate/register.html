@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <Title>Register</Title>
+    <link rel="icon" href="logo TItle.png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logindiv">
+            <div class="loginauthenticator">Register</div>
+            <form class="logins" action="register.php" method="POST">
+                <div class="cred">
+                    <div class="username">
+                        <label for="namebox"class="box">Associate Name:</label>
+                        <input class="text" type="text" name="name" id="namebox" required></input>
+                    </div>
+                    <div class="username">
+                        <label for="emailbox" class="box">Associate Email:</label>
+                        <input class="text" type="email" name="userid" id="emailbox" required></input>
+                    </div>
+                    <div class="username">
+                        <label for="owner" class="box">Associate Owner:</label>
+                        <input class="text" type="text" name="owner" id="owner" required></input>
+                    </div>
+                    <div class="password">
+                        <label for="passbox" class="box">Password:</label>
+                        <input class="text" type="password" id="passbox" name="password" required></input>
+                    </div>
+                    <div class="password">
+                        <label for="cnfpassbox" class="box">Confirm Password:</label>
+                        <input class="text" type="password" id="cnfpassbox" name=" confirm_password" required></input>
+                    </div>
+                    <div class="username">
+                        <label for="number" class="box" style="display:flex; align-items:center;">Associate Acc.NO</label>
+                        <input class="text" type="number" name="number" required></input>
+                    </div>
+                </div>
+                <div class="but">
+                    <div class="lock"></div>
+                    <button type="submit" name="register" class="loginbut" onclick="shift()">REGISTER</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- <div class="footer">
+        <div class="logotech"></div>
+        <div class="links">
+            <div class="fa fa-facebook" id="facebook"></div>
+            <div class="fa fa-twitter" id="twitter"></div>
+            <div class="fa fa-instagram" id="insta"></div>
+            <div class="fa fa-whatsapp" id="whatsapp"></div>
+            <div class="Contact">Contact Us: <br>8085095909</div>
+        </div>
+    </div> -->
+
+    <script src="register.js"></script>
+</body>
+
+</html>
