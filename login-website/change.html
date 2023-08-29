@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <Title>Login Authenticator</Title>
+    <link rel="icon" href="logo TItle.png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logindiv">
+            <div class="loginauthenticator">Reset password</div>
+            <form class="logins" action="change.php" method="POST">
+                <div class="cred">
+                    <div class="password">
+                        <div class="box">Password:</div>
+                        <input class="text" type="password" id="passbox" name="password"></input>
+                    </div>
+                    <div class="password">
+                        <div class="box">Re-Password:</div>
+                        <input class="text" type="password" id="passbox" name="repassword"></input>
+                    </div>
+                </div>
+                <div class="but">
+                    <div class="lock"></div>
+                    <button type="submit" name="submit" class="loginbut">Proceed</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- <div class="footer">
+        <div class="logotech"></div>
+        <div class="links">
+            <div class="fa fa-facebook" id="facebook"></div>
+            <div class="fa fa-twitter" id="twitter"></div>
+            <div class="fa fa-instagram" id="insta"></div>
+            <div class="fa fa-whatsapp" id="whatsapp"></div>
+            <div class="Contact">Contact Us: <br>8085095909</div>
+        </div>
+    </div> -->
+    <script src="inex.js"></script>
+</body>
+
+</html>

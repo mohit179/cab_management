@@ -1,0 +1,85 @@
+
+.footer{
+    width: 100%;
+    height:60px;
+    /* border: solid red 2px; */
+    background-color: rgb(71, 68, 68);
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    flex-direction: row;
+}
+.logotech{
+    width: 60px;
+    height: 60px;
+    /* border: solid rebeccapurple 2px; */
+    background-image: url('logotech.jpg');
+    background-size: 60px 60px;
+}
+.links{
+    width: calc(100% - 60px);
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Contact{
+    width: 120px;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#facebook{
+    width: 30px;
+    height: 30px;
+    background-color:#666;
+    font-size: 30px;
+    cursor: pointer; 
+    border-radius: 50%;
+    color: white;
+}
+#whatsapp{
+    width: 30px;
+    height: 30px;
+    background-color:#666;
+    font-size: 30px;
+    cursor: pointer; 
+    border-radius: 50%;
+    color: white;
+}
+#twitter{
+    width: 30px;
+    height: 30px;
+    background-color:#666;
+    font-size: 30px;
+    cursor: pointer; 
+    border-radius: 50%;
+    color: white;
+}
+#insta{
+    background-color:#666;
+    font-size: 30px;
+    cursor: pointer; 
+    border-radius: 50%;
+    color: white;
+}
+
+#facebook:hover{
+    box-shadow: 0px 40px 100px 10px rgb(47, 50, 206);
+    color:rgb(47, 50, 206);
+}
+#twitter:hover{
+    box-shadow: 0px 40px 100px 10px rgb(13, 218, 218);
+    color:rgb(13, 218, 218);
+}
+#whatsapp:hover{
+    box-shadow: 0px 40px 100px 10px rgb(12, 219, 105);
+    color:rgb(12, 219, 105);
+}
+#insta:hover{
+    box-shadow: 0px 40px 100px 10px rgb(192, 32, 144);
+    color:rgb(192, 32, 144);
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: poppins;
+    src: url("./littlelordfontleroy/LittleLordFontleroyNF.ttf");
+}
+.gradient-custom-2 {
+    background: #1398c8;
+    background: -webkit-linear-gradient(to right, #0ebcf6, #64b6ec, #43aecf, #59bfde);
+    background: linear-gradient(to right, #0ebcf6, #64b6ec, #43aecf, #59bfde);
+    }
+    @media (min-width: 768px) {
+    .gradient-form {
+        height: auto;   
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+#kt{
+    font-style: poppins;
+}
